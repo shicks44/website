@@ -1,49 +1,63 @@
-# Minimalist Portfolio Website
+# Shawn Hicks — Engineering Portfolio
 
-A clean, modern portfolio website built with Next.js and Tailwind CSS, featuring smooth animations and dark/light theme support.
+This is my personal portfolio website showcasing my work in Mechanical Engineering and Artificial Intelligence. The site highlights my projects, technical skills, and experience with a focus on design, CAD, and practical engineering problem solving.
 
-## ✨ Features
-
-- **Minimalist Design** - Clean typography with Geist font and strategic use of whitespace
-- **Responsive Layout** - Mobile-first design that works on all devices
-- **Theme Toggle** - Seamless dark/light mode switching
-- **Smooth Animations** - Subtle scroll-triggered animations and hover effects
-- **Modern Stack** - Built with Next.js 15, TypeScript, and Tailwind CSS
-
-## 🚀 Built With
-
-- [Next.js](https://nextjs.org/) - React framework
-- [TypeScript](https://www.typescriptlang.org/) - Type safety
-- [Tailwind CSS](https://tailwindcss.com/) - Styling
-- [v0.dev](https://v0.dev/) - AI-powered development
-
-## 📦 Getting Started
-
-\`\`\`bash
-# Clone the repository
-git clone https://github.com/felixmacaspac/v0-minimalist-portfolio.git
-
-# Install dependencies
-npm install
-
-# Run development server
-npm run dev
-\`\`\`
-
-Open [http://localhost:3000](http://localhost:3000) to view the portfolio.
-
-## 🎨 Customization
-
-The portfolio is designed to be easily customizable:
-
-- Update personal information in `app/page.tsx`
-- Modify colors and styling in `app/globals.css`
-- Add or remove sections as needed
-
-## 📄 License
-
-Open source and available under the [MIT License](LICENSE).
+## Live Site
+(Insert your Vercel link here)
 
 ---
 
-**Built with ❤️ using [v0.dev](https://v0.dev) by Felix Macaspac**
+## Overview
+
+This portfolio is built to present engineering work in a clean, modern format that emphasizes:
+- Mechanical design and CAD projects
+- Embedded systems and applied engineering work
+- Clear technical communication
+- Real-world problem solving
+
+The goal of this site is to provide recruiters and engineers with a quick and professional view of my capabilities.
+
+---
+
+## Tech Stack
+
+- **Framework:** Next.js (App Router)
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS
+- **Deployment:** Vercel
+
+---
+
+## Features
+
+- Clean, minimal UI focused on readability
+- Project pages with detailed descriptions and highlights
+- Responsive design for desktop and mobile
+- Scalable project structure using reusable data models
+
+---
+
+## Project Structure
+app/
+├── page.tsx # Homepage
+├── layout.tsx # Global layout
+├── projects/
+│ └── [id]/page.tsx # Dynamic project pages
+
+lib/
+└── projects.ts # Project data source
+
+public/
+└── images/ # Project images
+
+---
+
+## Projects Included
+
+### Cargo Door Assist Mechanism
+Mechanical design project focused on improving ergonomics and reducing operator effort through optimized geometry and system design.
+
+### Assistive Whistle Detection System
+Embedded system using signal detection and haptic feedback to improve accessibility in hockey environments.
+
+---
