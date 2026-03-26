@@ -4,7 +4,7 @@ import "./globals.css"
 
 export const metadata: Metadata = {
   title: "Shawn Hicks - Mechanical Engineering and Artificial Intelligence",
-  description: "Mechanical Engineering + AI student portfolio showcasing projects in aerospace, automotive, and machine learning.",
+  description: "HubSpot CMS Developer from Philippines with 5 years of experience.",
   generator: "v0.app",
 }
 

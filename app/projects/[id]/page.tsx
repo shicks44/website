@@ -7,12 +7,13 @@ export function generateStaticParams() {
   return projects.map((project) => ({ id: project.id }))
 }
 
-export default function ProjectPage({
+export default async function ProjectPage({
   params,
 }: {
-  params: { id: string }
+  params: Promise<{ id: string }>
 }) {
-  const project = projectsById[params.id]
+  const { id } = await params
+  const project = projectsById[id]
 
   if (!project) {
     notFound()
@@ -31,7 +32,6 @@ export default function ProjectPage({
         <h1 className="mb-6 text-4xl font-bold text-white md:text-5xl">
           {project.title}
         </h1>
-
         <p className="mb-10 text-lg leading-relaxed text-gray-400">
           {project.description}
         </p>

@@ -1,80 +1,70 @@
 import Link from "next/link"
 import { projects } from "@/lib/projects"
 
-const focusItems = ["SolidWorks", "Ansys", "AutoCAD", "Java", "Python"]
+const focusItems = ["SolidWorks", "ANSYS", "AutoCAD", "Python", "Java"]
 
 export default function HomePage() {
   return (
-    <main className="min-h-screen bg-black text-gray-100">
-      <div className="mx-auto max-w-6xl px-6 py-10 md:px-12 md:py-14">
-
+    <main className="min-h-screen bg-black text-zinc-100">
+      <div className="mx-auto max-w-6xl px-6 py-10 md:px-10 md:py-14 lg:px-12">
         {/* HERO */}
-        <section className="mb-24">
-          <p className="mb-8 inline-block bg-blue-900/70 px-3 py-1 text-xs font-semibold uppercase tracking-[0.2em] text-blue-100">
+        <section className="mb-24 pt-4 md:mb-28">
+          <p className="mb-8 inline-flex items-center rounded-sm border border-blue-800/70 bg-blue-950/60 px-4 py-2 text-[11px] font-semibold uppercase tracking-[0.22em] text-blue-100">
             Portfolio / 2025
           </p>
 
-          <h1 className="mb-8 text-6xl font-light leading-[0.95] tracking-tight text-gray-100 md:text-8xl">
-            Shawn
-            <br />
-            Hicks
-          </h1>
+          <div className="max-w-4xl">
+            <h1 className="text-6xl font-light leading-[0.92] tracking-[-0.04em] text-white sm:text-7xl md:text-8xl lg:text-[7.5rem]">
+              Shawn
+              <br />
+              Hicks
+            </h1>
 
-          <p className="mb-3 text-3xl font-medium text-gray-400 md:text-5xl">
-            Mechanical Engineering Student
-          </p>
-          <p className="mb-8 text-3xl font-medium text-gray-100 md:text-5xl">
-            Design, CAD, and Client Relations.
-          </p>
+            <div className="mt-8 space-y-3">
+              <p className="text-2xl font-medium leading-tight text-zinc-400 md:text-4xl">
+                Mechanical Engineering and Artificial Intelligence Student
+              </p>
+              <p className="text-2xl font-semibold leading-tight text-white md:text-4xl">
+                Design, CAD, Testing, and Technical Problem Solving
+              </p>
+            </div>
 
-          <div className="mb-12 flex flex-wrap items-center gap-6 text-2xl text-gray-400">
-            <span className="inline-flex items-center gap-3">
-              <span className="h-3 w-3 rounded-full bg-green-500" />
-              Available for work
-            </span>
-            <span>London/Toronto</span>
-          </div>
-
-          <div className="flex flex-wrap gap-4 text-base">
-            <a
-              href="https://www.linkedin.com"
-              target="_blank"
-              rel="noreferrer"
-              className="rounded-full border border-gray-700 px-5 py-2 text-gray-200 transition hover:border-gray-500 hover:text-white"
-            >
-              LinkedIn
-            </a>
-            <a
-              href="mailto:shawn@example.com"
-              className="rounded-full border border-gray-700 px-5 py-2 text-gray-200 transition hover:border-gray-500 hover:text-white"
-            >
-              Email
-            </a>
+            <div className="mt-8 flex flex-wrap items-center gap-x-6 gap-y-3 text-base text-zinc-400 md:text-lg">
+              <span className="inline-flex items-center gap-3">
+                <span className="h-2.5 w-2.5 rounded-full bg-emerald-400" />
+                Available for internships
+              </span>
+              <span>Mississauga, ON</span>
+            </div>
           </div>
         </section>
 
-        {/* EDUCATION */}
-        <section className="mb-20">
-          <p className="mb-6 text-3xl uppercase tracking-wide text-gray-500">
+        {/* CURRENTLY */}
+        <section className="mb-20 md:mb-24">
+          <p className="mb-5 text-sm font-medium uppercase tracking-[0.24em] text-zinc-500 md:text-base">
             Currently
           </p>
-          <h2 className="mb-3 text-4xl font-medium text-gray-100">
-            Mechanical Engineering and Artificial Intelligence
-          </h2>
-          <p className="mb-2 text-4xl text-gray-400">@ Western University</p>
-          <p className="text-3xl text-gray-500">2023 — Present</p>
+
+          <div className="max-w-4xl">
+            <h2 className="text-3xl font-semibold leading-tight text-white md:text-5xl">
+              Mechanical Engineering and Artificial Intelligence
+            </h2>
+            <p className="mt-3 text-2xl text-zinc-400 md:text-4xl">Western University</p>
+            <p className="mt-3 text-lg text-zinc-500 md:text-2xl">2023 to Present</p>
+          </div>
         </section>
 
-        {/* SKILLS */}
-        <section className="mb-20">
-          <p className="mb-6 text-3xl uppercase tracking-wide text-gray-500">
-            Focus
+        {/* FOCUS */}
+        <section className="mb-20 md:mb-24">
+          <p className="mb-5 text-sm font-medium uppercase tracking-[0.24em] text-zinc-500 md:text-base">
+            Technical Focus
           </p>
-          <div className="flex flex-wrap gap-4">
+
+          <div className="flex flex-wrap gap-3">
             {focusItems.map((item) => (
               <span
                 key={item}
-                className="rounded-full border border-gray-800 px-5 py-2 text-2xl text-gray-200 md:text-3xl"
+                className="rounded-full border border-zinc-800 bg-zinc-950 px-4 py-2 text-sm font-medium text-zinc-200 md:px-5 md:py-2.5 md:text-base"
               >
                 {item}
               </span>
@@ -83,39 +73,40 @@ export default function HomePage() {
         </section>
 
         {/* ABOUT */}
-        <section className="mb-20">
-          <div className="mb-8 flex items-end justify-between">
-            <h2 className="text-5xl font-light text-gray-100 md:text-6xl">
+        <section className="mb-20 md:mb-24">
+          <div className="mb-8 flex items-end justify-between gap-6">
+            <h2 className="text-4xl font-light tracking-[-0.03em] text-white md:text-6xl">
               About Me
             </h2>
-            <span className="text-xl uppercase tracking-[0.2em] text-gray-500">
-              Who I Am
+            <span className="hidden text-sm uppercase tracking-[0.24em] text-zinc-500 md:block">
+              Profile
             </span>
           </div>
 
-          <div className="space-y-8 text-4xl leading-relaxed text-gray-400">
+          <div className="max-w-4xl space-y-6 text-lg leading-8 text-zinc-400 md:text-2xl md:leading-[1.75]">
             <p>
-              I’m Shawn Hicks, a Mechanical Design Engineering student passionate about
-              <span className="text-gray-100"> design, CAD, and client collaboration.</span>
+              I am Shawn Hicks, a Mechanical Engineering and Artificial Intelligence student with a
+              strong interest in mechanical design, CAD, prototyping, and engineering analysis.
             </p>
             <p>
-              My focus lies in bridging engineering with creativity whether through mechanical systems, product design,
-              or automation tools. I enjoy solving real-world problems with practical, elegant solutions.
+              My experience includes design work, technical problem solving, and collaboration across
+              engineering and project environments. I enjoy building practical solutions that are
+              clear, efficient, and grounded in real performance needs.
             </p>
             <p>
-              Outside of engineering, I’m curious about how design thinking can shape better user experiences and
-              create meaningful impact.
+              I am especially interested in opportunities involving product development, testing,
+              aerospace, automotive, and advanced engineering systems.
             </p>
           </div>
         </section>
 
         {/* PROJECTS */}
-        <section className="pb-16">
-          <div className="mb-8 flex items-end justify-between">
-            <h2 className="text-5xl font-light text-gray-100 md:text-6xl">
+        <section className="mb-20 md:mb-24">
+          <div className="mb-8 flex items-end justify-between gap-6">
+            <h2 className="text-4xl font-light tracking-[-0.03em] text-white md:text-6xl">
               Projects
             </h2>
-            <span className="text-xl uppercase tracking-[0.2em] text-gray-500">
+            <span className="hidden text-sm uppercase tracking-[0.24em] text-zinc-500 md:block">
               Selected Work
             </span>
           </div>
@@ -124,25 +115,61 @@ export default function HomePage() {
             {projects.map((project) => (
               <article
                 key={project.id}
-                className="rounded-2xl border border-gray-800 bg-gray-950 p-6"
+                className="group rounded-3xl border border-zinc-800 bg-zinc-950 p-7 transition duration-200 hover:border-zinc-700 hover:bg-zinc-900"
               >
-                <h3 className="mb-3 text-3xl font-medium text-gray-100">
+                <h3 className="mb-3 text-2xl font-semibold leading-tight text-white md:text-3xl">
                   {project.title}
                 </h3>
-                <p className="mb-4 text-2xl text-gray-400">
+                <p className="mb-6 max-w-xl text-lg leading-8 text-zinc-400">
                   {project.summary}
                 </p>
                 <Link
                   href={`/projects/${project.id}`}
-                  className="inline-flex items-center gap-2 text-xl font-medium text-blue-400 hover:text-blue-300"
+                  className="inline-flex items-center gap-2 text-base font-semibold text-blue-400 transition group-hover:text-blue-300"
                 >
-                  Open project page <span aria-hidden>→</span>
+                  View project
+                  <span aria-hidden>→</span>
                 </Link>
               </article>
             ))}
           </div>
         </section>
 
+        {/* CONTACT */}
+        <section className="border-t border-zinc-900 pt-16 pb-10" id="connect">
+          <div className="mb-8 flex items-end justify-between gap-6">
+            <h2 className="text-4xl font-light tracking-[-0.03em] text-white md:text-6xl">
+              Let&apos;s Connect
+            </h2>
+            <span className="hidden text-sm uppercase tracking-[0.24em] text-zinc-500 md:block">
+              Contact
+            </span>
+          </div>
+
+          <div className="max-w-4xl">
+            <p className="mb-8 text-lg leading-8 text-zinc-400 md:text-2xl md:leading-[1.75]">
+              I am open to internships, engineering opportunities, and professional connections.
+              Please feel free to reach out through LinkedIn or email.
+            </p>
+
+            <div className="flex flex-wrap gap-4">
+              <a
+                href="https://www.linkedin.com/in/shawn-hicks-45a364224/"
+                target="_blank"
+                rel="noreferrer"
+                className="rounded-full border border-zinc-700 px-6 py-3 text-base font-medium text-white transition hover:border-blue-400 hover:text-blue-300"
+              >
+                LinkedIn
+              </a>
+              <a
+                href="mailto:shawnhicks902@gmail.com"
+                className="rounded-full border border-zinc-700 px-6 py-3 text-base font-medium text-white transition hover:border-blue-400 hover:text-blue-300"
+              >
+                Email
+              </a>
+            </div>
+          </div>
+        </section>
       </div>
     </main>
   )
