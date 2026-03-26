@@ -34,7 +34,7 @@ export default function HomePage() {
                 <span className="h-2.5 w-2.5 rounded-full bg-emerald-400" />
                 Available for internships
               </span>
-              <span>Mississauga, ON</span>
+              <span>London / Toronto / Mississauga</span>
             </div>
           </div>
         </section>
