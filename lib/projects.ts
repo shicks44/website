@@ -11,7 +11,8 @@ export const projects: Project[] = [
   {
     id: "cargo-lift",
     title: "Cargo Door Lift Assist",
-    summary: "Pneumatic assist system that reduces operator effort and improves repeatable opening speed.",
+    summary:
+      "Pneumatic assist system that reduces operator effort and improves repeatable opening speed.",
     description:
       "This project focused on reducing the force needed to operate a heavy cargo door. I modeled several linkage options, selected a pneumatic architecture, and validated safety factors under repeated load cycles. The final setup improved user ergonomics while keeping maintenance simple.",
     highlights: [
@@ -27,7 +28,8 @@ export const projects: Project[] = [
   {
     id: "whistle-aid",
     title: "Whistle Aid for Impaired Hockey",
-    summary: "An assistive ESP32 system that converts whistle signals into haptic alerts for players.",
+    summary:
+      "An assistive ESP32 system that converts whistle signals into haptic alerts for players.",
     description:
       "I built a portable device that detects whistle-like frequencies and triggers vibration feedback in near real time. The project required signal filtering, false-positive reduction, and user testing in noisy environments to make the feedback reliable during play.",
     highlights: [
@@ -42,4 +44,7 @@ export const projects: Project[] = [
   },
 ]
 
-export const projectsById = Object.fromEntries(projects.map((project) => [project.id, project]))
+// 🔥 This powers your dynamic routing
+export const projectsById = Object.fromEntries(
+  projects.map((project) => [project.id, project])
+)
