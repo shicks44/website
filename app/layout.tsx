@@ -3,9 +3,9 @@ import type { Metadata } from "next"
 import "./globals.css"
 
 export const metadata: Metadata = {
-  title: "Shawn Hicks - Mechanical Engineering and Artificial Intelligence",
-  description: "HubSpot CMS Developer from Philippines with 5 years of experience.",
-  generator: "v0.app",
+  title: "Shawn Hicks | Mechanical Engineering & AI Portfolio",
+  description:
+    "Portfolio of Shawn Hicks, a Mechanical Engineering and Artificial Intelligence student at Western University focused on design, testing, CAD, and hands-on engineering projects.",
 }
 
 export default function RootLayout({
@@ -15,7 +15,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="font-sans antialiased">{children}</body>
+      <body className="bg-black font-sans antialiased">{children}</body>
     </html>
   )
 }
