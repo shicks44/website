@@ -44,11 +44,11 @@ export const projects: Project[] = [
   },
   {
     id: "end-effector",
-    title: "Robotic End Effector Design",
+    title: "Rear Disk End Effector",
     summary:
-      "Industrial mechanical design work focused on a custom robotic end effector for real client requirements.",
+      "Industrial mechanical design work focused on a custom end effector for real client requirements.",
     description:
-      "Contributed to the design of a robotic end effector during my time at POW Engineering Group. The work involved CAD development, iterative refinement, and engineering collaboration to align the design with functional and manufacturing requirements.",
+      "Contributed to the design of a rear diskend effector during my time at POW Engineering Group. The work involved CAD development, iterative refinement, and engineering collaboration to align the design with functional and manufacturing requirements.",
     challenge:
       "The project required balancing client requirements, practical functionality, and manufacturability within an industrial setting.",
     approach:
