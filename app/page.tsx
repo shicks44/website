@@ -234,6 +234,14 @@ export default function HomePage() {
 
             <div className="flex flex-wrap gap-4">
               <a
+                href="https://github.com/shicks44"
+                target="_blank"
+                rel="noreferrer"
+                className="rounded-full border border-zinc-700 px-6 py-3 text-sm font-medium text-white transition hover:border-blue-400 hover:text-blue-300"
+              >
+                GitHub
+              </a>
+              <a
                 href="https://www.linkedin.com/in/shawn-hicks-45a364224/"
                 target="_blank"
                 rel="noreferrer"
