@@ -142,8 +142,8 @@ export const projects: Project[] = [
     tools: ["ESP32", "Embedded Systems", "Signal Processing", "Prototyping"],
     tags: ["Embedded Systems", "Signal Processing", "Accessibility"],
     images: [
-      { src: "/images/projects/whistle-1.jpg", alt: "Assistive whistle detection prototype" },
-      { src: "/images/projects/whistle-2.jpg", alt: "Whistle detection testing setup" },
+      { src: "/images/projects/whistle-1.png", alt: "Assistive whistle detection prototype" },
+      { src: "/images/projects/whistle-2.png", alt: "Whistle detection testing setup" },
     ],
   },
 ]
