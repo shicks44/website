@@ -64,8 +64,8 @@ export const projects: Project[] = [
     tools: ["SolidWorks", "Mechanical Design", "Design Reviews", "Manufacturing Considerations"],
     tags: ["Mechanical Design", "CAD", "Industrial Engineering"],
     images: [
-      { src: "/images/projects/end-effector-1.jpeg", alt: "End effector CAD model" },
-      { src: "/images/projects/end-effector-2.jpeg", alt: "End effector design detail" },
+      { src: "/images/projects/end-effector-1.jpeg", alt: "End effector Front View" },
+      { src: "/images/projects/end-effector-2.jpeg", alt: "End effector Rear View" },
     ],
   },
   {
@@ -91,7 +91,7 @@ export const projects: Project[] = [
     tags: ["Fabrication", "Mechanical Systems", "Hands-On Engineering"],
     images: [
       { src: "/images/projects/gokart-1.jpeg", alt: "Shopping cart go-kart build" },
-      { src: "/images/projects/gokart-2.jpeg", alt: "Go-kart frame and drivetrain layout" },
+      { src: "/images/projects/gokart-2.jpeg", alt: "Go-kart steering rack" },
     ],
   },
   {

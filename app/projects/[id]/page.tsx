@@ -73,7 +73,11 @@ export default async function ProjectPage({
         <section className="grid gap-12 pt-12 md:grid-cols-[1.3fr_0.7fr] md:pt-16">
           <div>
             <div className="mb-12 grid gap-6">
-              {project.images.map((image, index) => (
+              {project.images.map((image, index) => {
+                const shouldZoomOut =
+                  project.id === "whistle-aid" && index === 1
+
+                return (
                 <figure
                   key={`${image.src}-${index}`}
                   className="overflow-hidden rounded-[1.75rem] border border-zinc-800 bg-zinc-950"
@@ -83,14 +87,15 @@ export default async function ProjectPage({
                       src={image.src}
                       alt={image.alt}
                       fill
-                      className="object-cover"
+                      className={shouldZoomOut ? "object-contain p-4" : "object-cover"}
                     />
                   </div>
                   <figcaption className="border-t border-zinc-800 px-5 py-4 text-sm leading-6 text-zinc-400">
                     {image.alt}
                   </figcaption>
                 </figure>
-              ))}
+                )
+              })}
             </div>
 
             <section className="mb-8 rounded-[1.75rem] border border-zinc-800 bg-zinc-950 p-7 md:p-8">
