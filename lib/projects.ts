@@ -116,8 +116,8 @@ export const projects: Project[] = [
     tools: ["SolidWorks", "Mechanical Design", "Concept Development", "Geometry Analysis"],
     tags: ["Mechanical Design", "CAD"],
     images: [
-      { src: "/placeholder.jpg", alt: "Cargo door assist image coming soon" },
-      { src: "/placeholder.jpg", alt: "Cargo door assist CAD image coming soon" },
+      { src: "/images/projects/lift_1.jpg", alt: "Cargo door assist CAD model (front view)" },
+      { src: "/images/projects/lift_2.jpg", alt: "Cargo door assist CAD model (rear view)" },
     ],
   },
   {
