@@ -118,7 +118,7 @@ export default function HomePage() {
             <div className="grid gap-0 lg:grid-cols-[1.05fr_0.95fr]">
               <div className="relative min-h-[280px] lg:min-h-[100%]">
                 <Image
-                  src={featuredProject.images[0]?.src ?? "/images/projects/edf-1.jpg"}
+                  src={featuredProject.images[0]?.src ?? "/placeholder.jpg"}
                   alt={featuredProject.images[0]?.alt ?? featuredProject.title}
                   fill
                   className="object-cover"

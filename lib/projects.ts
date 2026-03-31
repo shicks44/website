@@ -37,8 +37,8 @@ export const projects: Project[] = [
     tools: ["SolidWorks", "Arduino", "Sensors", "DAQ", "Electrical Integration"],
     tags: ["Aerospace", "Instrumentation", "Embedded Systems", "Mechanical Design"],
     images: [
-      { src: "/images/projects/edf-1.jpg", alt: "EDF thrust stand assembly" },
-      { src: "/images/projects/edf-2.jpg", alt: "EDF test rig instrumentation and wiring" },
+      { src: "/placeholder.jpg", alt: "EDF thrust stand image coming soon" },
+      { src: "/placeholder.jpg", alt: "EDF test rig image coming soon" },
     ],
     featured: true,
   },
@@ -64,8 +64,8 @@ export const projects: Project[] = [
     tools: ["SolidWorks", "Mechanical Design", "Design Reviews", "Manufacturing Considerations"],
     tags: ["Mechanical Design", "CAD", "Industrial Engineering"],
     images: [
-      { src: "/images/projects/end-effector-1.jpg", alt: "End effector CAD model" },
-      { src: "/images/projects/end-effector-2.jpg", alt: "End effector design detail" },
+      { src: "/images/projects/end-effector-1.jpeg", alt: "End effector CAD model" },
+      { src: "/images/projects/end-effector-2.jpeg", alt: "End effector design detail" },
     ],
   },
   {
@@ -90,8 +90,8 @@ export const projects: Project[] = [
     tools: ["Fabrication", "Mechanical Assembly", "Structural Modification", "Problem Solving"],
     tags: ["Fabrication", "Mechanical Systems", "Hands-On Engineering"],
     images: [
-      { src: "/images/projects/gokart-1.jpg", alt: "Shopping cart go-kart build" },
-      { src: "/images/projects/gokart-2.jpg", alt: "Go-kart frame and drivetrain layout" },
+      { src: "/images/projects/gokart-1.jpeg", alt: "Shopping cart go-kart build" },
+      { src: "/images/projects/gokart-2.jpeg", alt: "Go-kart frame and drivetrain layout" },
     ],
   },
   {
@@ -116,8 +116,8 @@ export const projects: Project[] = [
     tools: ["SolidWorks", "Mechanical Design", "Concept Development", "Geometry Analysis"],
     tags: ["Mechanical Design", "CAD"],
     images: [
-      { src: "/images/projects/cargo-lift-1.jpg", alt: "Cargo door assist mechanism concept" },
-      { src: "/images/projects/cargo-lift-2.jpg", alt: "Cargo door assist CAD model" },
+      { src: "/placeholder.jpg", alt: "Cargo door assist image coming soon" },
+      { src: "/placeholder.jpg", alt: "Cargo door assist CAD image coming soon" },
     ],
   },
   {
