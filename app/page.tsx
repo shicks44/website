@@ -50,7 +50,7 @@ export default function HomePage() {
             <div className="justify-self-start md:justify-self-end">
               <div className="relative h-44 w-44 overflow-hidden rounded-3xl border border-zinc-800 bg-zinc-950 shadow-[0_0_0_1px_rgba(255,255,255,0.02)] md:h-56 md:w-56 lg:h-64 lg:w-64">
                 <Image
-                  src="/images/profile.jpg"
+                  src="/images/profile.png"
                   alt="Shawn Hicks headshot"
                   fill
                   priority
